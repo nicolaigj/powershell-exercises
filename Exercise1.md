@@ -7,7 +7,7 @@ Example run
 PS C:\>.\Exercise1.ps1 -String "Hello I'm an exercise"
 String: Hello I'm an exercise
 ```
-Relevant modules
+Relevant modules and structures
 ```powershell
 write-host
 Param()
