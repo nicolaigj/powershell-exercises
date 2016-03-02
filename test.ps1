@@ -6,7 +6,7 @@ Param(
 import-csv $csv | ForEach-Object {
     $properties = @{
         "ComputerName" = $_.DNSHostName
-        "InstallDate" = (Get-CimInstance Win32_OperatingSystem -ComputerName $_.DNSHostName).InstallDate
+        "InstallDate" = (Get-CimInstance Win32_OperatingSystem).InstallDate
         "MAC" = (get-netadapter).ifName
     }
     $obj = New-Object -TypeName PSObject -Property $properties
