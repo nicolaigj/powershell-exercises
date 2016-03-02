@@ -1,0 +1,7 @@
+#TYPE Selected.Microsoft.ActiveDirectory.Management.ADComputer
+"DNSHostName"
+"azuredc01.azure.gjellestad.net"
+"azurerds02.azure.gjellestad.net"
+"azurerds01.azure.gjellestad.net"
+"azurenano01.azure.gjellestad.net"
+"azureadmin01.azure.gjellestad.net"
