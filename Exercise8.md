@@ -1,6 +1,6 @@
 # Exercise 8
 
-Create a script that accepts a csv with computer names and return a csv with the following values:
+Create a script that accepts a csv with computer names, run it on the given computers and return a csv with the following values:
 - Computer name
 - When the OS was installed
 - The MAC address of the network adapter
@@ -23,6 +23,7 @@ Import-csv
 ForEach-Object 
 New-Object
 Export-csv
+Invoke-Command
 ```
 
 
