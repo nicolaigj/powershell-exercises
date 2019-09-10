@@ -3,9 +3,9 @@ Param(
     [String]$string
 )
 
-if ($string.Equals("TITS")) {
-    Write-Host "TITS"
+if ($string.Equals("BEEP")) {
+    Write-Host "BEEP"
 }
 else {
-    Write-Host "GTFO"
+    Write-Host "BOP"
 }
